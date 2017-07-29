@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GetDeviceIPAddress.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    GetDeviceIPAddress *ipVC = [[GetDeviceIPAddress alloc]init];
+//    NSString *ipString = [ipVC getDeviceIPIpAddresses];
+     NSString *ipString = [GetDeviceIPAddress getDeviceIPIpAddresses];
+    NSLog(@"------%@",ipString);
 }
 
 

@@ -15,6 +15,7 @@
 		2C0CE08B1F28726B00BC295F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CE0891F28726B00BC295F /* LaunchScreen.storyboard */; };
 		2C0CE0961F28726B00BC295F /* GetIpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CE0951F28726B00BC295F /* GetIpTests.m */; };
 		2C0CE0A11F28726B00BC295F /* GetIpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CE0A01F28726B00BC295F /* GetIpUITests.m */; };
+		2C0CE0B01F2872B000BC295F /* GetDeviceIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CE0AF1F2872B000BC295F /* GetDeviceIPAddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2C0CE09C1F28726B00BC295F /* GetIpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0CE0A01F28726B00BC295F /* GetIpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIpUITests.m; sourceTree = "<group>"; };
 		2C0CE0A21F28726B00BC295F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0CE0AE1F2872B000BC295F /* GetDeviceIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDeviceIPAddress.h; sourceTree = "<group>"; };
+		2C0CE0AF1F2872B000BC295F /* GetDeviceIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDeviceIPAddress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2C0CE07F1F28726B00BC295F /* AppDelegate.m */,
 				2C0CE0811F28726B00BC295F /* ViewController.h */,
 				2C0CE0821F28726B00BC295F /* ViewController.m */,
+				2C0CE0AE1F2872B000BC295F /* GetDeviceIPAddress.h */,
+				2C0CE0AF1F2872B000BC295F /* GetDeviceIPAddress.m */,
 				2C0CE0841F28726B00BC295F /* Main.storyboard */,
 				2C0CE0871F28726B00BC295F /* Assets.xcassets */,
 				2C0CE0891F28726B00BC295F /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				2C0CE0831F28726B00BC295F /* ViewController.m in Sources */,
 				2C0CE0801F28726B00BC295F /* AppDelegate.m in Sources */,
+				2C0CE0B01F2872B000BC295F /* GetDeviceIPAddress.m in Sources */,
 				2C0CE07D1F28726B00BC295F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
